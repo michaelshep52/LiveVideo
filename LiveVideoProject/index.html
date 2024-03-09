@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Video Camera</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--Camera-->
+  <main id="background">
+    <div id="video-container">
+        <!--Heading-->
+        <h1 id="heading" aria-label="Live Video Stream">
+            Live Video Stream
+        </h1>
+        <!--Camera view-->
+        <video id="video-view" autoplay playsinline aria-label="Video Streaming View"></video>
+        <!--Switch Camera-->
+        <button id="switch-camera" aria-label="Switch Camera">
+            Switch Camera
+        </button>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
